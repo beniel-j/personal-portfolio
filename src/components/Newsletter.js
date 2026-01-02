@@ -24,7 +24,7 @@ export const Newsletter = () => {
     setButtonText('Subscribing...');
     
     try {
-      const response = await fetch("http://localhost:5000/subscribe", {
+      const response = await fetch("https://personal-portfolio-u4x6.onrender.com/subscribe", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
