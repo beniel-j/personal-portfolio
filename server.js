@@ -476,7 +476,7 @@ const projectsData = [
     technologies: ["Python", "Flask", "SocketIO", "AES Encryption"],
     category: "Full-Stack",
     featured: true,
-    imgUrl: "/assets/img/Projects/Nextchat.png"  
+    imgUrl: "/assets/img/Projects/NextChat.png"  
   },
   {
     id: 4,
