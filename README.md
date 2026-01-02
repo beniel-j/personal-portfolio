@@ -1,11 +1,6 @@
 ```markdown
 # Beniel J - Interactive Portfolio
 
-🔗 **Live Demo:** https://personal-portfolio-mu-snowy.vercel.app  
-💻 **Backend API:** https://personal-portfolio-u4x6.onrender.com  
-
----
-
 ## ✅ Features Implemented
 
 ### Core Requirements
