@@ -467,7 +467,7 @@ const projectsData = [
     technologies: ["IoT", "Arduino", "Sensors", "Cloud"],
     category: "IoT",
     featured: true,
-    imgUrl: "/assets/img/projects/IvBag.jpg"  
+    imgUrl: "/assets/img/Projects/IvBag.jpg"  
   },
   {
     id: 3,
@@ -476,7 +476,7 @@ const projectsData = [
     technologies: ["Python", "Flask", "SocketIO", "AES Encryption"],
     category: "Full-Stack",
     featured: true,
-    imgUrl: "/assets/img/projects/Nextchat.png"  
+    imgUrl: "/assets/img/Projects/Nextchat.png"  
   },
   {
     id: 4,
@@ -485,7 +485,7 @@ const projectsData = [
     technologies: ["JavaScript", "Excel API", "Analytics"],
     category: "Data Analytics",
     featured: false,
-    imgUrl: "/assets/img/projects/Excel.png"  
+    imgUrl: "/assets/img/Projects/Excel.png"  
   },
   {
     id: 5,
@@ -494,7 +494,7 @@ const projectsData = [
     technologies: ["JavaScript", "Firebase", "API Integration"],
     category: "Full-Stack",
     featured: false,
-    imgUrl: "/assets/img/projects/BenBasket.png"  
+    imgUrl: "/assets/img/Projects/BenBasket.png"  
   },
   {
     id: 6,
@@ -503,7 +503,7 @@ const projectsData = [
     technologies: ["JavaScript", "HTML5", "CSS3"],
     category: "Web Development",
     featured: false,
-    imgUrl: "/assets/img/projects/Connect4.png" 
+    imgUrl: "/assets/img/Projects/Connect4.png" 
   },
   {
     id: 7,
@@ -512,7 +512,7 @@ const projectsData = [
     technologies: ["React", "Firebase", "Real-time DB"],
     category: "Productivity",
     featured: false,
-    imgUrl: "/assets/img/projects/Planmate.png" 
+    imgUrl: "/assets/img/Projects/Planmate.png" 
   },
   {
     id: 8,
@@ -521,7 +521,7 @@ const projectsData = [
     technologies: ["Figma", "UI/UX", "React"],
     category: "Web Development",
     featured: false,
-    imgUrl: "/assets/img/projects/BlogXplore.png" 
+    imgUrl: "/assets/img/Projects/BlogXplore.png" 
   },
   {
     id: 9,
@@ -530,7 +530,7 @@ const projectsData = [
     technologies: ["HTML5", "CSS3", "JavaScript"],
     category: "Web Development",
     featured: false,
-    imgUrl: "/assets/img/projects/TravelBlog.png"  
+    imgUrl: "/assets/img/Projects/TravelBlog.png"  
   }
 ];
 

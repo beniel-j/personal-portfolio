@@ -32,17 +32,17 @@ export const Projects = () => {
     {
       title: "Enhancing Patient Care Through Blue Eye Technology",
       description: "Research exploring how Blue Eye Technology enhances intelligent patient monitoring systems",
-      imgUrl: "/assets/img/projects/publication1.jpg",
+      imgUrl: "/assets/img/Projects/publication1.jpg",
     },
     {
       title: "Cybersecurity in Nuclear Power Plants",
       description: "Research publication exploring cutting-edge cybersecurity frameworks to protect critical systems in nuclear facilities",
-      imgUrl: "/assets/img/projects/publication2.jpg",
+      imgUrl: "/assets/img/Projects/publication2.jpg",
     },
     {
       title: "Ethical Hacking in Cyber Security Incident Response",
       description: "Journal publication on integrating ethical hacking strategies for swift detection and effective mitigation in cybersecurity incidents",
-      imgUrl: "/assets/img/projects/publication3.jpg",
+      imgUrl: "/assets/img/Projects/publication3.jpg",
     },
   ];
 
@@ -50,27 +50,27 @@ export const Projects = () => {
     {
       title: "🥇 1st Prize - EXCENTRA'24",
       description: "Government College of Engineering, Tirunelveli - Won 1st prize in paper presentation on 'IoT Enabled IV Bag Monitoring and Alert System'",
-      imgUrl: "/assets/img/projects/award1.jpg",
+      imgUrl: "/assets/img/Projects/award1.jpg",
     },
     {
       title: "🥈 2nd Prize - Gyan Mitra'25",
       description: "Mepco Schlenk Engineering College - Secured 2nd prize in Paper Presentation (IoT stream)",
-      imgUrl: "/assets/img/projects/award2.jpg",
+      imgUrl: "/assets/img/Projects/award2.jpg",
     },
     {
       title: "🏆 Special Jury Award - AURA'25",
       description: "Francis Xavier Engineering College - Won Special Jury Award at 12 Hours Internal Hackathon",
-      imgUrl: "/assets/img/projects/award3.jpg",
+      imgUrl: "/assets/img/Projects/award3.jpg",
     },
     {
       title: "🥈 2nd Prize - APPATHON'25",
       description: "Francis Xavier Engineering College - Secured 2nd prize in APPATHON - The App Challenge Contest",
-      imgUrl: "/assets/img/projects/award2.jpg",
+      imgUrl: "/assets/img/Projects/award2.jpg",
     },
     {
       title: "🏅 TOP 1% - NPTEL IoT Course",
       description: "Completed Introduction to IoT course with 92%, ranking in TOP 1% nationwide",
-      imgUrl: "/assets/img/projects/nptel.png",
+      imgUrl: "/assets/img/Projects/nptel.png",
     },
   ];
 
