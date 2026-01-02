@@ -1,3 +1,4 @@
+```markdown
 # Beniel J - Interactive Portfolio
 
 🔗 **Live Demo:** https://personal-portfolio-mu-snowy.vercel.app  
@@ -7,86 +8,59 @@
 
 ## ✅ Features Implemented
 
-### **Core Requirements:**
-- ✅ Modern React frontend with smooth animations
-- ✅ Hero, About, Projects, Skills sections  
-- ✅ "Why Should You Hire Me?" video presentation
-- ✅ Backend REST API (Node.js + Express)
-- ✅ Projects fetched dynamically from API
-- ✅ AI Chatbot powered by Groq API (Llama 3.3 70B)
+### Core Requirements
+- Modern React frontend with smooth animations  
+- Hero, About, Projects, Skills sections  
+- "Why Should You Hire Me?" video presentation  
+- Backend REST API (Node.js + Express)  
+- Projects fetched dynamically from API  
+- AI Chatbot powered by Groq API (Llama 3.3 70B)  
 
-### **Bonus Features:**
-- ✅ AI Chatbot with personality & context awareness
-- ✅ Functional contact form with styled email notifications
-- ✅ Newsletter subscription system
-- ✅ Fully responsive design (mobile, tablet, desktop)
-- ✅ Smooth scroll animations and transitions
-- ✅ Publications & Achievements showcase
+### Bonus Features
+- AI Chatbot with personality & context awareness  
+- Functional contact form with styled email notifications  
+- Newsletter subscription system  
+- Fully responsive design (mobile, tablet, desktop)  
+- Smooth scroll animations and transitions  
+- Publications & Achievements showcase  
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Frontend:**
-- React.js
-- React Bootstrap
-- CSS3 with custom animations
-- Animate.css
-- React Icons
+**Frontend**
+- React.js  
+- React Bootstrap  
+- CSS3 with custom animations  
+- Animate.css  
+- React Icons  
 
-**Backend:**
-- Node.js
-- Express.js
-- Groq SDK (AI Integration)
-- Nodemailer (Email service)
-- CORS
+**Backend**
+- Node.js  
+- Express.js  
+- Groq SDK (AI Integration)  
+- Nodemailer (Email service)  
+- CORS  
 
-**Deployment:**
-- Frontend: Vercel
-- Backend: Render
-- Version Control: GitHub
+**Deployment**
+- Frontend: Vercel  
+- Backend: Render  
+- Version Control: GitHub  
 
-**APIs:**
-- Groq API (Llama 3.3 70B) for AI Chatbot
-- Custom REST API for projects
-
----
-
-## 🚀 Features Overview
-
-### **AI Chatbot**
-- Powered by Groq API (Llama 3.3 70B model)
-- Context-aware conversations
-- Answers questions about my projects, skills, and experience
-- Quick question suggestions
-- Real-time responses
-
-### **Dynamic Projects**
-- 9 real-world projects showcased
-- Fetched dynamically from backend API
-- Includes technical details and technologies used
-- Categorized by type (Full-Stack, IoT, Web Dev)
-
-### **Publications & Achievements**
-- Research publications tab
-- Hackathon wins and awards showcase
-- NPTEL certification (TOP 1% nationwide)
-
-### **Contact & Newsletter**
-- Functional contact form
-- Newsletter subscription system
-- Professional email notifications
+**APIs**
+- Groq API (Llama 3.3 70B) for AI Chatbot  
+- Custom REST API for projects  
 
 ---
 
 ## 🏃 Running Locally
 
-### **Prerequisites:**
-- Node.js (v14 or higher)
-- npm or yarn
-- Git
+### Prerequisites
+- Node.js (v14 or higher)  
+- npm or yarn  
+- Git  
 
-### **Frontend Setup:**
+### Frontend Setup
 
 ```bash
 # Clone the repository
@@ -103,11 +77,13 @@ npm start
 
 # Build for production
 npm run build
+```
 
-The app will run on http://localhost:3000
+The app will run on `http://localhost:3000`.
 
-Backend Setup:
-bash
+### Backend Setup
+
+```bash
 # In the same project directory
 # Create .env file with the following variables:
 
@@ -117,10 +93,15 @@ GROQ_API_KEY=your_groq_api_key
 
 # Run the server
 node server.js
-The server will run on http://localhost:5000
+```
 
-📁 Project Structure
-text
+The server will run on `http://localhost:5000`.
+
+---
+
+## 📁 Project Structure
+
+```text
 personal-portfolio/
 ├── public/
 │   ├── assets/
@@ -144,36 +125,61 @@ personal-portfolio/
 ├── server.js                 # Backend API server
 ├── package.json
 └── README.md
-🌐 API Endpoints
-Base URL: https://personal-portfolio-u4x6.onrender.com
+```
 
-GET /api/projects
-Returns all projects with details
+---
 
-POST /api/chat
-AI chatbot endpoint
+## 🌐 API Endpoints
 
-Body: { "message": "your question", "chatHistory": [] }
+**Base URL:** `https://personal-portfolio-u4x6.onrender.com`
 
-POST /contact
-Send contact form email
+### GET `/api/projects`
+Returns all projects with details.
 
-Body: { "firstName": "", "lastName": "", "email": "", "phone": "", "message": "" }
+### POST `/api/chat`
+AI chatbot endpoint.  
+**Body:**
+```json
+{
+  "message": "your question",
+  "chatHistory": []
+}
+```
 
-POST /subscribe
-Newsletter subscription
+### POST `/contact`
+Send contact form email.  
+**Body:**
+```json
+{
+  "firstName": "",
+  "lastName": "",
+  "email": "",
+  "phone": "",
+  "message": ""
+}
+```
 
-Body: { "email": "" }
+### POST `/subscribe`
+Newsletter subscription.  
+**Body:**
+```json
+{
+  "email": ""
+}
+```
 
-🙏 Acknowledgments
-Built as part of Interactive Portfolio Assignment
+---
 
-AI powered by Groq (Llama 3.3 70B)
+## 🙏 Acknowledgments
 
-Deployed on Vercel and Render
+- Built as part of Interactive Portfolio Assignment  
+- AI powered by Groq (Llama 3.3 70B)  
+- Deployed on Vercel and Render  
+- Special thanks to the open-source community  
 
-Special thanks to the open-source community
+---
 
-⭐ If you like this project, please give it a star on GitHub!
+⭐ If you like this project, please give it a star on GitHub!  
 
-Built with ❤️ by Beniel J
+*Built with ❤️ by Beniel J*
+```
